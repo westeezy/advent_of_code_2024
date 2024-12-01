@@ -33,7 +33,7 @@ cat > "src/day$formatted_day/dune" <<EOL
 (executable
  (name day$formatted_day)
  (public_name day$formatted_day)
- (libraries))
+ (libraries utils))
 EOL
 
 # Create an empty OCaml file for the day's solution
